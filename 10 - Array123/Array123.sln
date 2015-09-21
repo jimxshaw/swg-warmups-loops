@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array123", "Array123\Array123.csproj", "{16ED5224-086D-450D-AAB2-3460755ACA1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array123Tests", "Array123Tests\Array123Tests.csproj", "{42DD7855-FCEA-4917-8A0F-289C5535DCA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16ED5224-086D-450D-AAB2-3460755ACA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16ED5224-086D-450D-AAB2-3460755ACA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16ED5224-086D-450D-AAB2-3460755ACA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16ED5224-086D-450D-AAB2-3460755ACA1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42DD7855-FCEA-4917-8A0F-289C5535DCA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DD7855-FCEA-4917-8A0F-289C5535DCA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DD7855-FCEA-4917-8A0F-289C5535DCA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DD7855-FCEA-4917-8A0F-289C5535DCA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
