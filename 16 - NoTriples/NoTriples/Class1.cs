@@ -4,23 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Array123
+namespace NoTriples
 {
     public class Class1
     {
-        public bool Array123(int[] numbers)
+        public bool NoTriples(int[] numbers)
         {
-            bool subArray = false;
+            bool noTriples = true;
 
             for (int i = 0; i < numbers.Length - 2; i++)
             {
-                if (numbers[i] == 1 && numbers[i + 1] == 2 && numbers[i + 2] == 3)
+                if (numbers[i] == numbers[i + 1] && numbers[i] == numbers[i + 2] && numbers[i + 1] == numbers[i + 2])
                 {
-                    return true;
+                    noTriples = false;
                 }
             }
 
-            return subArray;
+            return noTriples;
         }
     }
 }

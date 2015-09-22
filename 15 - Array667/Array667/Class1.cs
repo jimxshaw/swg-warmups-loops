@@ -4,23 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Array123
+namespace Array667
 {
     public class Class1
     {
-        public bool Array123(int[] numbers)
+        public int Array667(int[] numbers)
         {
-            bool subArray = false;
+            int counter = 0;
 
             for (int i = 0; i < numbers.Length - 2; i++)
             {
-                if (numbers[i] == 1 && numbers[i + 1] == 2 && numbers[i + 2] == 3)
+                if ((numbers[i] == 6 && numbers[i + 1] == 6) || (numbers[i] == 6 && numbers[i + 1] == 7))
                 {
-                    return true;
+                    counter++;
                 }
             }
 
-            return subArray;
+            return counter;
         }
     }
 }
